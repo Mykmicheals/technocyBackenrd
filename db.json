@@ -1,0 +1,1075 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$260000$r2KoNCdHpzAXUqxSlNFRs8$OdgjCvQMIorJxEqqbVgWT3reMGsgqlkHscPwHxYk7eg=",
+        "last_login": "2022-05-12T14:05:51.681Z",
+        "is_superuser": true,
+        "username": "myk",
+        "first_name": "",
+        "last_name": "",
+        "email": "mykmicheals@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-05-06T13:45:44.042Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "46aizfhzed18fdioncbjivekl9ke2cbr",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUVN1bgOIztniOLYJgWUSk07Ie4OlTrA-t97_2Vi2tYStyZLnNicjTOn341SfkjdAd9Tvc02z3VdJrK7Yg_a7HVmeV4O9--gpFa-dY-QMXfaiyh5ZacJ0YmyjDAqUEDEwK4blBkFvXdEiYmJYAgKYN4fFVw5TA:1np9Rv:fUkVCFMLv6Z2A-1rkIZ07XW4G47ViqVYMh1HpDKM5Vo",
+        "expire_date": "2022-05-26T14:05:51.693Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dl4e6usk7mmeuctyr0zy2wp6ihlgqnfd",
+    "fields": {
+        "session_data": ".eJxVjDEOwjAMRe-SGUVN1bgOIztniOLYJgWUSk07Ie4OlTrA-t97_2Vi2tYStyZLnNicjTOn341SfkjdAd9Tvc02z3VdJrK7Yg_a7HVmeV4O9--gpFa-dY-QMXfaiyh5ZacJ0YmyjDAqUEDEwK4blBkFvXdEiYmJYAgKYN4fFVw5TA:1nmySb:titQ3qypoEUaR8PlKsfNk_JcVkVjF1qr-dMm0Kl6Se0",
+        "expire_date": "2022-05-20T13:57:33.008Z"
+    }
+},
+{
+    "model": "app.category",
+    "pk": 1,
+    "fields": {
+        "name": "Phones",
+        "image": "media/samsung_s21.jpg"
+    }
+},
+{
+    "model": "app.category",
+    "pk": 2,
+    "fields": {
+        "name": "Laptops",
+        "image": "media/Hp_Envy_13_8th_Gen_Intel_Core_I58GB256GB_SSDBacklit_Keyboard13.3-inch.jpg"
+    }
+},
+{
+    "model": "app.category",
+    "pk": 3,
+    "fields": {
+        "name": "Television",
+        "image": "media/Hp_15_Intel_core_15_330k.jpg"
+    }
+},
+{
+    "model": "app.category",
+    "pk": 4,
+    "fields": {
+        "name": "Gaming",
+        "image": "media/ps5.jpg"
+    }
+},
+{
+    "model": "app.category",
+    "pk": 5,
+    "fields": {
+        "name": "Accessories",
+        "image": "media/apple_airpod_pro.jpg"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 1,
+    "fields": {
+        "name": "Apple",
+        "image": "media/4.jpg"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 2,
+    "fields": {
+        "name": "Samsung",
+        "image": "media/samsung_s21_GwuDCLt.jpg"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 3,
+    "fields": {
+        "name": "Sony",
+        "image": "media/ps5_rCGKjlR.jpg"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 4,
+    "fields": {
+        "name": "Techno",
+        "image": "media/spark_techno.jpg"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 5,
+    "fields": {
+        "name": "Huawei",
+        "image": "media/Huawei.png"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 6,
+    "fields": {
+        "name": "Hp",
+        "image": "media/hp_aR31wks.png"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 7,
+    "fields": {
+        "name": "Lg",
+        "image": "media/lg.png"
+    }
+},
+{
+    "model": "app.brand",
+    "pk": 8,
+    "fields": {
+        "name": "Dell",
+        "image": "media/dell.png"
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 1,
+    "fields": {
+        "name": "Apple IPhone 12 Pro Max - 256GB, 6GB RAM, 6.7-Inch,(12MP+12MP+12MP) - Pacific Blue",
+        "category": 1,
+        "brand": 1,
+        "description": ".7\" Super Retina XDR display with 2778 x 1284 resolution at 458ppi takes you to the edge\r\nAll-screen OLED with surgical-grade stainless steel edges delivers brighter brights, darker blacks, and higher resolution for everything you look at\r\nHDR display is packed with features including True Tone, wide colour (P3), haptic touch, a typical 2,000,000:1 contrast ratio, 800 nits max brightness (1200 nits with HDR), and fingerprint-resistant oleophobic coating\r\nMore processing power with A14 Bionic and iOS 14\r\n\r\n256GB of on-board storage\r\nA14 Bionic chip crunches trillions of operations on the Neural Engine, handles shooting in Dolby Vision, is super-efficient for great battery life, and brings the latest augmented-reality (AR) experiences to life\r\nLiDAR scanner measures how long it takes light to reflect back from objects, so it can create a depth map of whatever space you're in for an improved AR experience\r\niOS 14 is packed with shortcuts that get you just what you want, right when you want it -- including pinned conversations in Messages, redesigned Widgets, and App Clips that let you use a small part of an app to quickly do things like pay for parking or order takeout\r\nThree stunning cameras",
+        "image": "media/Apple_IPhone_12.jpg",
+        "slug": "apple-iphone-12-pro-max-256gb-6gb-ram-67-inch",
+        "price": "670,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 2,
+    "fields": {
+        "name": "Samsung Galaxy A53, 6.5\" Super AMOLED Screen, 6GB/128GB Memory,",
+        "category": 1,
+        "brand": 2,
+        "description": "The Samsung Galaxy A53 5G has a unique back with an Ambient Edge design that blends with its quad cameras, you will see a matter finish look rather than the glossy and glass design.\r\n\r\nThe overall design of the phone looks good and feels solid in the hands.\r\n\r\nThe front side has a 6.5-inch Super AMOLED display with a 120 Hz refresh rate and a resolution of Full HD+. The display is protected by scratch-resistant Corning Gorilla Glass 5. You will find an in-screen selfie camera and an in-display fingerprint scanner on the front.6GB/128GB RAM\r\n5000mAh Battery\r\nAndroid 12\r\nColor - Blue",
+        "image": "media/samsung_s21_WGWnPuy.jpg",
+        "slug": "samsung-galaxy-a53-65-super-amoled-screen-6gb",
+        "price": "199,999",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 3,
+    "fields": {
+        "name": "Apple 13.3\" MacBook Pro M1 Chip 8GB/ 256GB (Late 2020)",
+        "category": 2,
+        "brand": 1,
+        "description": "Apple M1 8-Core CPU\r\n8GB Unified RAM - 256GB SSD\r\n13.3\" 2560 x 1600 IPS Retina Display\r\n8-Core GPU - 16-Core Neural Engine\r\nP3 Color Gamut - True Tone Technology\r\nWi-Fi 6 (802.11ax) - Bluetooth 5.0\r\nTouch Bar - Touch ID Sensor\r\n2 x Thunderbolt 3 / USB4 Ports\r\nMagic Keyboard - Force Touch Trackpad\r\nmacOS",
+        "image": "media/Apple_13.3.jpg",
+        "slug": "apple-133-macbook-pro-m1-chip-8gb-256gb-late-2",
+        "price": "785,000",
+        "star": 4
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 4,
+    "fields": {
+        "name": "XIAOMI Redmi Note 10 -5G, 6.4\" Super AMOLED Screen, 8GB/128GB Memory, 48MP Quad Camera, 5000 mAh Bat",
+        "category": 1,
+        "brand": 4,
+        "description": "Display: 6.43 inches\r\nProcessor: Snapdragon 678\r\nRear Camera: 48 MP + 8 MP + 2 MP + 2 MP\r\nFront Camera: 13 MP\r\nBattery: 5000 mAh\r\nSIM: Dual SIM (Nano-SIM, dual stand-by)\r\nAndroid 11, ( MIUI 11)",
+        "image": "media/xiomi.jpg",
+        "slug": "xiaomi-redmi-note-10-5g-64-super-amoled-screen",
+        "price": "120,000",
+        "star": 4
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 5,
+    "fields": {
+        "name": "Samsung Neo QLED QN85A 65\" Class HDR 4K UHD Smart TV",
+        "category": 3,
+        "brand": 2,
+        "description": "4K UHD 3840 x 2160 QLED Panel\r\nQuantum HDR 24X / HDR10, HDR10+, and HLG\r\nMotion Xcelerator Turbo+ Technology\r\nFreeSync Premium Pro for Gaming\r\nBuilt-In Wi-Fi & Ethernet Connectivity\r\nBixby, Alexa, Google Assistant Built-In\r\nScreen Mirroring Technology\r\nFull Web Browser\r\n4 x HDMI / 2 x USB\r\nDolby Digital Plus\r\nSPECIFICATIONS\r\nSKU: SA948EA1T9TC1NAFAMZ\r\nProduct Line: WORLDMARTIN\r\nModel: QN85A\r\nSize (L x W x H cm): 56.9 x 32.6 x 1\" / 1446.3 x 829.3 x 26.1 mm (Without Stand) 56.9 x 35.2 x 11.2\" / 1446.3 x 892.9 x 285.4 mm (With Stand)\r\nWeight (kg): 30",
+        "image": "media/samTv.png",
+        "slug": "samsung-neo-qled-qn85a-65-class-hdr-4k-uhd-smart",
+        "price": "1,700,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 7,
+    "fields": {
+        "name": "Huawei Y9a, 6.63-Inch (8GB RAM + 128GB ROM) Android 10, (64MP + 8MP + 2MP + 2MP",
+        "category": 1,
+        "brand": 5,
+        "description": "SIM : Dual SIM\r\nSize : 6.63'' FHD Display\r\nProcessor : Octa-core\r\nMemory : 8GB RAM, 128GB ROM\r\nCamera : Quad 64MP + 8MP +2MP + 2MP and 16MP Selfie\r\nBattery : Li-Po 4300mAh non removable\r\nSPECIFICATIONS\r\nSKU: HU802MP0JMTGLNAFAMZ\r\nProduct Line: PECULIAR\r\nModel: Y9a\r\nWeight (kg): 0.02\r\nColor: Space Silver",
+        "image": "media/Huawei_YeMrfrS.png",
+        "slug": "huawei-y9a-663-inch-8gb-ram-128gb-rom-androi",
+        "price": "159,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 8,
+    "fields": {
+        "name": "Tecno Camon 17 Pro (CG8h) 6.8\" FHD+, 8GB RAM + 256GB ROM, 64MP +",
+        "category": 1,
+        "brand": 4,
+        "description": "Summary\r\n48MP Ultra Clear Selfie Camera\r\n64MP Ultra Clear Quad Camera\r\nUltra Pro Video Camera\r\n6.8\"Dot-in, 90Hz FHD+Display\r\n5000mAh, 25W Flash Charge\r\nCPU Helio G95, 256+8GB Memory\r\nDual Speakers Surround Sound\r\nFront Camera with Dual Flash,Rear Camera with Quad Flash\r\nHiOS based on Android™ 11\r\n\r\n\r\nSpecification\r\n\r\nHeight: 168.89mm\r\nWidth:76.98mm\r\nThickness: 8.95mm\r\n6.8'' FHD\r\n1080*2460 Resolution\r\n90Hz FHD+Display\r\n256GB ROM\r\n8GB RAM\r\n5000mAh(typ)\r\nAndroid™ 11",
+        "image": "media/techno_camon.jpg",
+        "slug": "tecno-camon-17-pro-cg8h-68-fhd-8gb-ram-256",
+        "price": "140,000",
+        "star": 4
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 9,
+    "fields": {
+        "name": "Apple IPhone 13 6.1\" Super Retina XDR Display, (4GB RAM + 128GB ROM), IOS 15, W",
+        "category": 1,
+        "brand": 1,
+        "description": "6.1-inch Super Retina XDR display\r\nCinematic mode adds shallow depth of field and shifts focus automatically in your videos\r\nAdvanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording\r\n12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording\r\nA15 Bionic chip for lightning-fast performance\r\nMain Camare - (12MP + 12MP + 12MP) \r\nSelfie Camera - 12MP\r\n4GB RAM + 128GB ROM\r\nWHAT’S IN THE BOX\r\nApple iPhone 13Charging Cord Ejection Pin Apple StickerUser Manual Guide\r\nSPECIFICATIONS\r\nSKU: AP044MP1MDKIYNAFAMZ\r\nProduct Line: VEE VEE\r\nModel: iPhone 13\r\nSize (L x W x H cm): 146.7 x 71.5 x 7.7 mm (5.78 x 2.81 x 0.30 in)\r\nWeight (kg): 0.174\r\nMain Material: Alloyed Material",
+        "image": "media/iphone13.png",
+        "slug": "apple-iphone-13-61-super-retina-xdr-display-4g",
+        "price": "490,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 10,
+    "fields": {
+        "name": "Apple IPhone 13 Pro Max 6.7\" Super Retina XDR Display (6GB RAM +128GB ROM), IOS 15 - Sierra Blue",
+        "category": 1,
+        "brand": 1,
+        "description": "KEY FEATURES\r\n6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel\r\nCinematic mode adds shallow depth of field and shifts focus automatically in your videos\r\nPro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography; Photographic Styles, ProRes video, Smart HDR 4, Night mode, Apple ProRAW, 4K Dolby Vision HDR recording\r\n12MP TrueDepth front camera with Night mode, 4K Dolby Vision HDR recording\r\nA15 Bionic chip for lightning-fast performance\r\n6GB RAM 128GB ROM\r\n(12MP + 12MP + 12MP) \r\n5G\r\nWHAT’S IN THE BOX\r\niPhone 13 Pro Max Charging CableEjection Pin Apple Sticker User Manual Guide\r\nSPECIFICATIONS\r\nSKU: AP044MP1NI2UYNAFAMZ\r\nProduct Line: VEE VEE\r\nModel: Iphone 13 Pro Max\r\nWeight (kg): 0.5\r\nColor: Sierra Blue\r\nMain Material: Alloyed Material",
+        "image": "media/13pro.png",
+        "slug": "apple-iphone-13-pro-max-67-super-retina-xdr-disp",
+        "price": "920,000",
+        "star": 4
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 11,
+    "fields": {
+        "name": "Hp Notebook 14-10th Gen Intel® Core I5- 256 GB SSD 8GB RAM WIN 10",
+        "category": 2,
+        "brand": 6,
+        "description": "Microprocessor\tIntel® Core™ i5-1035G1 (1.0 GHz base frequency, up to 3.6 GHz with Intel® Turbo Boost Technology, 6 MB cache, 4 cores)\r\nChipset\tIntel® Integrated SoC\r\nMemory, standard\t8 GB DDR4-2666 SDRAM (1 x 4 GB, 1 x 8 GB)\r\nVideo graphics\t\r\nIntel® UHD Graphics\r\nIntegrated\r\nHard drive\t256 GB PCIe® NVMe™ M.2 SSD\r\nOptical drive\tOptical drive not included\r\nDisplay\t14\" diagonal FHD IPS anti-glare micro-edge WLED-backlit, 250 nits, 45% NTSC (1920 x 1080)\r\nWireless connectivity\tRealtek RTL8821CE 802.11b/g/n/ac (1x1) and Bluetooth® 4.2 Combo\r\nExpansion slots\t1 multi-format SD media card reader\r\nExternal ports\t1 USB 3.1 Gen 1 Type-C™ (Data Transfer Only, 5 Gb/s signaling rate); 2 USB 3.1 Gen 1 Type-A (Data Transfer Only); 1 AC smart pin; 1 HDMI 1.4b; 1 headphone/microphone combo\r\nMinimum dimensions (W x D x H)\t32.4 x 22.5 x 1.79 cm\r\nWeight\t1.46 kg\r\nPower supply type\t45 W Smart AC power adapter\r\nBattery type\t3-cell, 41 Wh Li-ion\r\nBattery life mixed usage\tUp to 10 hours and 15 minutes\r\nVideo Playback Battery life\tUp to 8 hours and 30 minutes\r\nWebcam\tHP TrueVision HD Camera with integrated dual array digital microphone\r\nAudio features\tDual speakers",
+        "image": "media/hp.png",
+        "slug": "hp-notebook-14-10th-gen-intel-core-i5-256-gb-ssd",
+        "price": "370,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 12,
+    "fields": {
+        "name": "Lenovo Ideapad 14inch AMD Quad Core 1TB HDD 8GB RAM -Wins 10+ Mouse",
+        "category": 2,
+        "brand": 3,
+        "description": "Powered by Amd QUAD core 1.2 to 2.9Ghz  WITH TURBO BOOST SYSTEM\r\nDisplay: 14.1\" 1366 x 768 HD resolution. Energy-efficient LED backlight display; Intel UHD Graphics 610\r\nMemory: 8GB DDR4-2400 SDRAM Memory for basic multitasking; \r\n\r\nStorage: 1TB HDD offers a compact warehouse for storing all your favourite movies, music, photos, and more in one convenient place\r\n\r\n802.11AC WiFi, Bluetooth, 1x USB 2.0, 2x USB 3.1 Type A Gen 1, 1x HDMI, Stereo speakers\r\nOperating System: Windows 10 Home\r\nWHAT’S IN THE BOX\r\nLAPTOPCHARGER\r\nSPECIFICATIONS\r\nSKU: LE842CL03YTAVNAFAMZ\r\nProduct Line: Mercy and Mercy Stores\r\nModel: v14\r\nWeight (kg): 1.85\r\nColor: Iron GREY",
+        "image": "media/leno.png",
+        "slug": "lenovo-ideapad-14inch-amd-quad-core-1tb-hdd-8gb-ra",
+        "price": "180,000",
+        "star": 3
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 13,
+    "fields": {
+        "name": "Hp Pavilion 15 - AMD Ryzen™ 5 - 16GB RAM - TouchScreen- 256GB SSD - Windows 10 PRO",
+        "category": 2,
+        "brand": 6,
+        "description": "KEY FEATURES\r\nAMD RYZEN 5\r\nAMD VEGA GRAPHICS\r\n16GB RAM\r\n256GB SSD\r\nTOUCHSCREEN\r\nWINDOWS 10\r\nSPECIFICATIONS\r\nSKU: HP246CL03FPDVNAFAMZ\r\nProduct Line: BETTERMIGHT INTEGRATED SYSTEM\r\nModel: RYZEN 5\r\nWeight (kg): 1.69\r\nMain Material: Plastic",
+        "image": "media/pavi.png",
+        "slug": "hp-pavilion-15-amd-ryzentm-5-16gb-ram-touchsc",
+        "price": "350,000",
+        "star": 3
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 14,
+    "fields": {
+        "name": "Apple MacBook Air 13\" M1 Chip 8GB 512GB 2020 Model - Gold",
+        "category": 2,
+        "brand": 1,
+        "description": "KEY FEATURES\r\nManufacturer - Apple\r\nOperating System - macOS Big Sur 11.0\r\nRAM - 8GB\r\nInternal Memory - 512GB\r\nScreen size - 13 inches\r\nProcessor - Apple M1\r\nProduct Warranty - 1 Year Warranty\r\nSPECIFICATIONS\r\nSKU: AP044CL1K2HR5NAFAMZ\r\nProduct Line: Just Fones\r\nWeight (kg): 0.5\r\nColor: Gold",
+        "image": "media/mac.png",
+        "slug": "apple-macbook-air-13-m1-chip-8gb-512gb-2020-model",
+        "price": "850,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 15,
+    "fields": {
+        "name": "LG 65'' 4K OLED Smart AI ThinQ Built In Satellite TV + Wall Bracket",
+        "category": 3,
+        "brand": 7,
+        "description": "KEY FEATURES\r\n65 inch TV\r\nSELF LIT OLED TV\r\nOLED Display\r\nWallpaper TV\r\nLG ThinQ AI - Google Assistant - Alexa\r\nLG α9 Gen 2 Intelligent Processor\r\nDolby Vision - Dolby Atmos\r\nGallery design without Stand\r\nIn-built Satellite \r\nOrder now on Jumia\r\nSPECIFICATIONS\r\nSKU: LG835EL2ISI3QNAFAMZ\r\nProduct Line: Donhenries\r\nModel: 65 OLED\r\nWeight (kg): 28\r\nColor: Black\r\nDisplay Size (inches): 55.0\r\nDisplay Features: UHD",
+        "image": "media/lg_ZHRD9ZT.png",
+        "slug": "lg-65-4k-oled-smart-ai-thinq-built-in-satellite",
+        "price": "2,200,000",
+        "star": 4
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 16,
+    "fields": {
+        "name": "Samsung 65Q8C HDR UHD 4k Curved QLED Smat TV",
+        "category": 3,
+        "brand": 2,
+        "description": "Specifications\r\nKEY FEATURES\r\nScreen: 65\" Curved TV\r\nUHD 3840 x 2160 Curved LED Panel\r\nHDR10 Support\r\nMotion Rate 240 for Reduced Motion Blur\r\nScreen Mirroring Technology\r\nResolution: 3840 x 2160 \r\nQuantum dots picture quality\r\nQ HDR 1500\r\nSmart TV:            Yes\r\nWiFi Built-in:       Yes\r\nHDMI:                 Yes\r\nUSB:                   Yes\r\nSPECIFICATIONS\r\nSKU: SA948EA17AKVYNAFAMZ\r\nProduct Line: Graceville Premium Stores\r\nModel: Q8C\r\nSize (L x W x H cm): 56.7 x 32.6 x 4.2\" / 144.0 x 82.8 x 10.7 cm Without stand 56.7 x 36.1 x 14.8\" / 144.0 x 91.7 x 37.6 cm With stand 37.8 x 35.7 x 8.3\" / 96.0 x 90.7 x 21.1 cm Stand footprint\r\nWeight (kg): 31\r\nColor: Sterling Silver",
+        "image": "media/sam.png",
+        "slug": "samsung-65q8c-hdr-uhd-4k-curved-qled-smat-tv",
+        "price": "1,300,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 17,
+    "fields": {
+        "name": "Hisense 85'' UHD 4K Smart TV Netflix,Youtube&DSTV Now APP-85A7500",
+        "category": 3,
+        "brand": 7,
+        "description": "KEY FEATURES\r\nNEW MODEL \r\nBEZELLESESS DESIGN\r\nDSTV NOW APP\r\nNetflix\r\nYoutube\r\nPrime Video\r\nDTS Studio Sound\r\nIcflix\r\nGame Center\r\n4K UHD TV\r\nHDMI\r\nUSB\r\nAV\r\nSmart WiFi\r\nFree Wall Bracket\r\nSPECIFICATIONS\r\nSKU: HI368EA0EXSKSNAFAMZ\r\nProduct Line: Multiple Sales\r\nModel: 85A7500\r\nWeight (kg): 34\r\nColor: N/A",
+        "image": "media/hisense.png",
+        "slug": "hisense-85-uhd-4k-smart-tv-netflixyoutubedstv",
+        "price": "1,900,000",
+        "star": 5
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 18,
+    "fields": {
+        "name": "Samsung 85 Inch AU8000 Crystal UHD 4K HDR Smart Television",
+        "category": 3,
+        "brand": 2,
+        "description": "KEY FEATURES\r\nDisplay\r\n\r\nSize 84.5\"\r\nDisplay Technology LCD\r\nAspect Ratio 16:9\r\nResolution 3840 x 2160\r\nHDR Compatibility HDR10, HDR10+, Hybrid Log-Gamma\r\nAuto Low Latency Mode (ALLM) Yes\r\nVideo\r\n\r\nVideo System NTSC\r\nTV Tuner ATSC, Clear QAM\r\nConnectivity\r\n\r\nInput Ports 3 x HDMI Type A\r\n1 x F-Type (RF Antenna)\r\nOutput Ports 1 x TOSLINK Optical (Digital Audio)\r\nWi-Fi Wi-Fi 5 (802.11ac)\r\nBluetooth Bluetooth 4.2 (Keyboard)\r\nUSB Ports 2 x USB 2.0 (Audio, Photo, Video)\r\nEthernet LAN\r\nSpeaker\r\n\r\nPower 20 W\r\nConvenience\r\n\r\nVirtual Assistant Support Amazon Alexa, Google Assistant, Samsung Bixby\r\nSmart TV Tizen\r\nSupported Languages English French Spanish\r\n\r\nWall Mounting 600 x 400 mm\r\n\r\nRemote\r\n\r\nMicrophone Yes\r\nGeneral\r\n\r\nPower Consumption Standby: 0.5 W\r\nAC Input Power 110 to 120 VAC, 50 / 60 Hz\r\nDimensions 74.8 x 42.8 x 1.1\" / 1900.9 x 1086.1 x 26.9 mm (Without Stand); 74.8 x 44.5 x 15.5\" / 1900.9 x 1131.5 x 394.7 mm (With Stand)\r\nWeight 91.5 lb / 41.5 kg (Without Stand); 95.9 lb / 43.5 kg (With Stand)\r\nSPECIFICATIONS\r\nSKU: SA948EA2XQAA4NAFAMZ\r\nProduct Line: Luchi's Store\r\nModel: AU8000\r\nSize (L x W x H cm): 1900.9 x 1131.5 x 394.7 mm\r\nWeight (kg): 43.5\r\nColor: Black",
+        "image": "media/csam.png",
+        "slug": "samsung-85-inch-au8000-crystal-uhd-4k-hdr-smart-te",
+        "price": "1,800,000",
+        "star": 4
+    }
+},
+{
+    "model": "app.popularproducts",
+    "pk": 19,
+    "fields": {
+        "name": "DELL Latitude 5420 14 11Th Gen Intel Core I5-16GB RAM,512GB SSD Backlit Keyboard, Win10 Pro",
+        "category": 2,
+        "brand": 8,
+        "description": "Specifications\r\nKEY FEATURES\r\nDELL LATITUDE E5420 \r\n11Th Intel Core i5\r\n2.4 GHz Intel Core i5 4-Core (11th Gen)\r\n16GB of DDR4 RAM - 512GB M.2 SSD\r\n14\" 1920 x 1080 IPS Display\r\nIntegrated Intel Iris Xe Graphics\r\nMicroSD Card Reader\r\nThunderbolt 4 - USB 3.2 Gen 1 - HDMI 2.0\r\nWi-Fi 6 (802.11ax) - Bluetooth 5.1\r\nGigabit Ethernet Port\r\nFull HD IR Webcam with Privacy Shutter\r\nWindows 10 Pro (64-Bit)\r\nWHAT’S IN THE BOX\r\nIn the Box\r\nDELL LATITUDE E5420 \r\nAC Adapter and Documentation\r\nWarranty 1 Year Warranty\r\nSPECIFICATIONS\r\nSKU: DE168CL34GOUSNAFAMZ\r\nProduct Line: jnc Laptops\r\nModel: Dell Latitude 5420 14 11Th Gen Intel Core i5-16GB RAM,512GB SSD,Intel Iris Xe Graphics,Win 10 Pro\r\nProduction Country: USA\r\nWeight (kg): 1.32\r\nColor: GREY",
+        "image": "media/dell_XTQCmzV.png",
+        "slug": "dell-latitude-5420-14-11th-gen-intel-core-i5-16gb",
+        "price": "602,500",
+        "star": 5
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2022-05-13T11:29:13.774Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Phones",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2022-05-13T11:30:02.494Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "Laptops",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2022-05-13T11:30:40.732Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Televisions",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2022-05-13T11:31:17.643Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Gaming",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2022-05-13T11:31:44.149Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Accessories",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2022-05-13T11:32:46.378Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "1",
+        "object_repr": "Apple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2022-05-13T11:33:54.737Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "2",
+        "object_repr": "Samsung",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2022-05-13T11:34:21.970Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "3",
+        "object_repr": "Sony",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2022-05-13T11:35:14.019Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "4",
+        "object_repr": "Techno",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2022-05-13T12:13:07.790Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "1",
+        "object_repr": "Apple IPhone 12 Pro Max - 256GB, 6GB RAM, 6.7-Inch,(12MP+12MP+12MP) - Pacific Blue",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2022-05-13T12:17:02.738Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "2",
+        "object_repr": "SHARE THIS PRODUCT   Official Store Samsung Galaxy A53, 6.5\" Super AMOLED Screen, 6GB/128GB Memory,",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2022-05-13T14:53:37.441Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "3",
+        "object_repr": "SHARE THIS PRODUCT   Apple 13.3\" MacBook Pro M1 Chip 8GB/ 256GB (Late 2020)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2022-05-13T15:04:59.548Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "4",
+        "object_repr": "XIAOMI Redmi Note 10 -5G, 6.4\" Super AMOLED Screen, 8GB/128GB Memory, 48MP Quad Camera, 5000 mAh Bat",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2022-05-13T15:12:34.797Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "5",
+        "object_repr": "Samsung Neo QLED QN85A 65\" Class HDR 4K UHD Smart TV",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2022-05-13T15:29:20.776Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "5",
+        "object_repr": "Huawei",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2022-05-13T15:31:14.443Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "7",
+        "object_repr": "SHARE THIS PRODUCT   Huawei Y9a, 6.63-Inch (8GB RAM + 128GB ROM) Android 10, (64MP + 8MP + 2MP + 2MP",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2022-05-13T15:33:01.523Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "8",
+        "object_repr": "SHARE THIS PRODUCT   Official Store Tecno Camon 17 Pro (CG8h) 6.8\" FHD+, 8GB RAM + 256GB ROM, 64MP +",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2022-05-13T15:36:11.177Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "9",
+        "object_repr": "Apple IPhone 13 6.1\" Super Retina XDR Display, (4GB RAM + 128GB ROM), IOS 15, W",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2022-05-13T16:16:51.971Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "10",
+        "object_repr": "Apple IPhone 13 Pro Max 6.7\" Super Retina XDR Display (6GB RAM +128GB ROM), IOS 15 - Sierra Blue",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2022-05-13T16:30:39.060Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Television",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2022-05-13T16:36:55.929Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "11",
+        "object_repr": "Hp Notebook 14-10th Gen Intel® Core I5- 256 GB SSD 8GB RAM WIN 10",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2022-05-13T16:39:00.437Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "12",
+        "object_repr": "Lenovo Ideapad 14inch AMD Quad Core 1TB HDD 8GB RAM -Wins 10+ Mouse",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2022-05-13T16:41:05.329Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "13",
+        "object_repr": "Hp Pavilion 15 - AMD Ryzen™ 5 - 16GB RAM - TouchScreen- 256GB SSD - Windows 10 PRO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2022-05-13T16:42:30.069Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "14",
+        "object_repr": "Apple MacBook Air 13\" M1 Chip 8GB 512GB 2020 Model - Gold",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2022-05-13T16:46:26.930Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "6",
+        "object_repr": "Hp",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2022-05-13T16:46:47.514Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "7",
+        "object_repr": "Lg",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2022-05-13T16:51:11.061Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "15",
+        "object_repr": "LG 65'' 4K OLED Smart AI ThinQ Built In Satellite TV + Wall Bracket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2022-05-13T16:52:55.529Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "16",
+        "object_repr": "Samsung 65Q8C HDR UHD 4k Curved QLED Smat TV",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2022-05-13T16:54:56.689Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "17",
+        "object_repr": "Hisense 85'' UHD 4K Smart TV Netflix,Youtube&DSTV Now APP-85A7500",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2022-05-13T16:58:18.462Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "18",
+        "object_repr": "Samsung 85 Inch AU8000 Crystal UHD 4K HDR Smart Television",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2022-05-13T17:03:13.030Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "brand"
+        ],
+        "object_id": "8",
+        "object_repr": "Dell",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2022-05-13T17:04:19.333Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "19",
+        "object_repr": "DELL Latitude 5420 14 11Th Gen Intel Core I5-16GB RAM,512GB SSD Backlit Keyboard, Win10 Pro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2022-05-13T17:05:17.854Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "13",
+        "object_repr": "Hp Pavilion 15 - AMD Ryzen™ 5 - 16GB RAM - TouchScreen- 256GB SSD - Windows 10 PRO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Category\", \"Brand\", \"Price\", \"Star\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2022-05-13T17:05:53.529Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "11",
+        "object_repr": "Hp Notebook 14-10th Gen Intel® Core I5- 256 GB SSD 8GB RAM WIN 10",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2022-05-13T17:06:48.937Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "2",
+        "object_repr": "Samsung Galaxy A53, 6.5\" Super AMOLED Screen, 6GB/128GB Memory,",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2022-05-13T17:07:16.861Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "7",
+        "object_repr": "Huawei Y9a, 6.63-Inch (8GB RAM + 128GB ROM) Android 10, (64MP + 8MP + 2MP + 2MP",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2022-05-13T17:07:56.239Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "8",
+        "object_repr": "Tecno Camon 17 Pro (CG8h) 6.8\" FHD+, 8GB RAM + 256GB ROM, 64MP +",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2022-05-13T17:08:40.753Z",
+        "user": [
+            "myk"
+        ],
+        "content_type": [
+            "app",
+            "popularproducts"
+        ],
+        "object_id": "3",
+        "object_repr": "Apple 13.3\" MacBook Pro M1 Chip 8GB/ 256GB (Late 2020)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+}
+]
