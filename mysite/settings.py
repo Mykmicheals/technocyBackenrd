@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-r=^h_in)_rquufz_foqytg&t6$uxa+2i_o((hjyu1-a0=b&#af'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://itechnocy.herokuapp.com']
 
 
 # Application definition
@@ -50,6 +50,8 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -187,6 +189,8 @@ STATICFILES_DIRS = [
     BASE_DIR / 'technocy/build/static'
 ]
 
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -212,7 +216,6 @@ DJOSER = {
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT  = 587
+EMAIL_PORT = 587
 EMAIL_HOST_USER = 'mykhelhandy@gmail.com'
 EMAIL_PASSWORD = 'figodelima2000'
-
