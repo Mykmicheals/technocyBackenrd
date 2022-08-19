@@ -4,6 +4,7 @@ from .serializers import RegisterSerializer,MyTokenObtainPairSerializer,UpdateUs
 from rest_framework import generics
 
 from rest_framework_simplejwt.views import TokenObtainPairView
+from django.utils.translation import gettext_lazy as _
 
 
 class RegisterView(generics.CreateAPIView):

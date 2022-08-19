@@ -27,12 +27,13 @@ SECRET_KEY = 'django-insecure-r=^h_in)_rquufz_foqytg&t6$uxa+2i_o((hjyu1-a0=b&#af
 # SECURITY WARNING: don't run with debug turned on in production!
 
 
-DEBUG = False
+# DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://itechnocy.herokuapp.com']
+# ALLOWED_HOSTS = ['https://itechnocy.herokuapp.com']
 
 
-# Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -47,7 +48,7 @@ INSTALLED_APPS = [
     'app',
     "corsheaders",
     'rest_framework.authtoken',
-    # 'djoser',
+    'djoser',
 ]
 
 MIDDLEWARE = [
