@@ -17,8 +17,10 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
+
 def home(request):
     return render(request, 'index.html')
+
 
 def index(request):
     if request.method == 'GET':

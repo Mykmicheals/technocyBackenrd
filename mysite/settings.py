@@ -50,8 +50,8 @@ INSTALLED_APPS = [
     "corsheaders",
     'rest_framework.authtoken',
     'djoser',
-  
 ]
+
 
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
@@ -206,6 +206,7 @@ CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
     'http://localhost:3001',
     'https://technocy-c5e08.web.app',
+    'http://192.168.10.101:3000'
 ]
 
 
